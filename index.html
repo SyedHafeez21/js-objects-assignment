@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>js assignment</title>
+</head>
+<body>
+    <div id="bgColor">
+     <h1 id="textColor">   Java Assignment 7  </h1>
+     <p id="para"></p>
+         <button onclick="change()">Change Background Color</button>
+         <button onclick="fntColor()">Change Text Color</button>
+    </div>
+    <div class="IMGdiv">
+        
+        <img src="./image.1.webp" width="600" id="image">
+        <br><br>
+        <button onclick="IMGhandle('show')">Show image</button>
+        <button onclick="IMGhandle('hide')">Hide image</button>
+        <button onclick="IMGhandle('large')">Large image</button>
+        <button onclick="IMGhandle('small')">Small image</button>
+
+    </div>
+    <div class="bulbonoff">
+
+       <img src="./Bulb off.jfif" onmouseover="Bulb('bulbOn')" onmouseout="Bulb('bulbOff')" id="bulb" width="250px">
+
+    </div>
+    <div style="background-color:lightblue ;" id="paraGraph">
+        <button onclick="pColorCH()">Change Paragraph Color</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel quod molestias suscipit eveniet itaque neque et excepturi quos iure nulla laborum dolore velit praesentium voluptates assumenda corrupti molestiae, animi nam est, soluta nobis provident.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus vel quod molestias suscipit eveniet itaque neque et excepturi quos iure nulla laborum dolore velit praesentium 
+        voluptates assumenda corrupti molestiae, animi nam est, soluta nobis provident.</p>
+        
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
